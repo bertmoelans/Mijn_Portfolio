@@ -1,0 +1,27 @@
+/* specifieke stijlregels voor 404-pagina */
+
+
+body {
+    background-color: #004500;
+    background-image: url(/afbeeldingen/unsplash-404-compr.jpg);
+}
+
+@media screen and (min-width:500px) {
+    body {
+        font-size: 40px;
+        line-height: 60px;
+        /*em betekent dat de grootte van het leertje m wordt genomen als lettergrootte van de gekozen font*/
+    }
+
+    div {
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    div {
+        margin-left: 150px;
+        margin-top: 40px;
+    }
+}
