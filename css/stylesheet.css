@@ -13,5 +13,15 @@ section {
 
 .wrap {
     transform: scale(0.65);
-    margin-top: -80px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #video1 {
+        display: none;
+    }
 }
