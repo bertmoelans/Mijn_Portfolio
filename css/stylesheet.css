@@ -20,12 +20,6 @@ section {
     height: auto;
 }
 
-@media screen and (max-width: 600px) {
-    #video1 {
-        display: none;
-    }
-}
-
 .icon_color {
     color: white;
 }
