@@ -23,3 +23,7 @@ section {
 .icon_color {
     color: white;
 }
+
+section {
+    padding: 100px;
+}
