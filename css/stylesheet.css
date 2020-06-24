@@ -8,7 +8,7 @@ header {
 }
 
 section {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .wrap {
@@ -22,8 +22,4 @@ section {
 
 .icon_color {
     color: white;
-}
-
-section {
-    padding: 100px;
 }
