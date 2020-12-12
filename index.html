@@ -3,18 +3,13 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Mijn portfolio">
-    <meta name="author" content="Bert Moelans">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Mijn Portfolio" />
+    <meta name="author" content="Bert Moelans" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>E-Portfolio Bert Moelans</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/stylesheet.css" rel="stylesheet">
 
     <!--FAVICON-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -24,141 +19,527 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!--ICONS-->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7d16da2343.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 
 </head>
 
 <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger pt-3" href="#page-top">
                 <figure>
                     <img src="afbeeldingen/SVG_LOGO_MB.svg" alt="foto" height="50" width="50">
                 </figure>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#"><i class="fas fa-home"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#overmij">Wie ben ik?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#toekomst">Toekomst</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="projecten.html">Projecten</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#"><i class="fas fa-home"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#overmij">Wie ben ik?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#toekomst">Toekomst</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#portfolio">Projecten</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#tijdslijn">Tijdslijn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="bg-dark text-white">
-        <div class="container text-center">
-            <h1>Portfolio Bert Moelans</h1>
-            <p class="lead">Welkom op mijn website waarop u informatie over mezelf en mijn werkstukken kan vinden.</p>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Welkom op mijn website!</div>
+            <div class="masthead-heading text-uppercase">Portfolio Bert Moelans</div>
             <a href="#overmij" class="js-scroll-trigger">
                 <h1><i class="far fa-arrow-alt-circle-down"></i></h1>
             </a>
         </div>
     </header>
 
-    <section id="overmij">
+    <!-- Over mij-->
+    <section class="page-section" id="overmij">
         <div class="container">
-            <h2>Wie ben ik?</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="lead">
-                        Mijn naam is Bert Moelans, student Elektronica-ICT in de IT Factory van Thomas More Geel. Mijn afstudeerrichting is Cloud and Cyber Security. Na mijn eerste CTF "Cyber Security Challenge Belgium" was ik meteen gebeten door de beveiliging van het web. Bekijkt u graag mijn CV? Klik dan gerust op mijn foto of download <a href="bestanden/CV_Bert_Moelans_TM.pdf" download>CV_BertMoelans.pdf</a>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Over mij</h2>
+                <h3 class="section-subheading text-muted">Mijn naam is Moelans, Bert Moelans.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h4 class="my-3">Cloud and Cyber Security</h4>
+                    <p class="text-muted">Mijn naam is Bert Moelans, student Elektronica-ICT in de IT Factory van Thomas More Geel. Mijn afstudeerrichting is Cloud and Cyber Security. Na mijn eerste CTF "Cyber Security Challenge Belgium" was ik meteen gebeten door de beveiliging van het web. Bekijkt u graag mijn CV? Klik dan gerust op mijn foto of download <a href="bestanden/CV_Bert_Moelans_TM.pdf" download>CV_BertMoelans.pdf</a>
                     </p>
-                    <a href="bestanden/CV_Bert_Moelans_TM.pdf" class="text-left">
+                    <a href="bestanden/CV_Bert_Moelans_TM.pdf" class="text-center">
                         <figure>
                             <img src="afbeeldingen/Foto_CV.JPG" alt="Foto_CV" width="290" height="290">
                         </figure>
                     </a>
                 </div>
-                <div class="col">
-                    <p class="lead">
-                        Naast mijn werkuren voor school heb ik een passie voor muziek. Ik ben begonnen met gitaar toen ik 10 jaar was. Eerst klassiek, dan elektrisch en nu vooral akoustisch. Mijn hoogtepunt hiervan was een optreden in een café genaamd de Koestal in Hasselt op het Dusartplein. Hieronder zie je mij in actie.
+                <div class="col-md-6">
+                    <h4 class="my-3">Muzikant</h4>
+                    <p class="text-muted">Naast mijn werkuren voor school heb ik een passie voor muziek. Ik ben begonnen met gitaar toen ik 10 jaar was. Eerst klassiek, dan elektrisch en nu vooral akoustisch. Mijn hoogtepunt hiervan was een optreden in een café genaamd de Koestal in Hasselt op het Dusartplein. Hieronder zie je mij in actie.
                     </p>
-                    <br>
-                    <figure class="text-left">
+                    <figure class="text-center">
                         <img src="afbeeldingen/Bert-foto.jpg" alt="Foto_Gitaar" height="280" width="490" class="responsive">
                     </figure>
-
                 </div>
             </div>
-
         </div>
     </section>
 
-    <section id="toekomst" class="bg-light">
+    <!-- Toekomst plannen -->
+    <section class="page-section  bg-light" id="toekomst">
         <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Back to the future</h2>
+            </div>
+            <div class="row text-center">
+                <p class="text-muted">In de toekomst zou ik me graag verdiepen in hacken en Cyber Security. Het lijkt me fantastisch om een bedrijf zo goed te beveiligen dat geen enkele hacker zijn slag kan slaan. Ik zou ook graag eens een bedrijf testen op hun beveiliging. Naast mijn ambities voor hacken, is mijn streefdoel om even goed piano te kunnen spelen als gitaar.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid-->
+    <section class="page-section" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Projecten</h2>
+                <h3 class="section-subheading text-muted">Een overzicht van mijn projecten, waar ik met trots naar kijk.</h3>
+            </div>
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center ">
-                    <h2>Toekomstplannen</h2>
-                    <p class="lead">
-                        In de toekomst zou ik me graag verdiepen in hacken en Cyber Security. Het lijkt me fantastisch om een bedrijf zo goed te beveiligen dat geen enkele hacker zijn slag kan slaan. Ik zou ook graag eens een bedrijf testen op hun beveiliging. Naast mijn ambities voor hacken, is mijn streefdoel om even goed piano te kunnen spelen als gitaar.
-                    </p>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid " src=" assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Project Webdesign</div>
+                            <div class="portfolio-caption-subheading text-muted">Het Gouden Hart</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Project SE&amp;A</div>
+                            <div class="portfolio-caption-subheading text-muted">System engineering</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Project Hosting</div>
+                            <div class="portfolio-caption-subheading text-muted">PHP platform hosten</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Project 4.0</div>
+                            <div class="portfolio-caption-subheading text-muted">Smart City Herentals</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" size="10%" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Stage nFuse</div>
+                            <div class="portfolio-caption-subheading text-muted">Cyber Security</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Mysterie</div>
+                            <div class="portfolio-caption-subheading text-muted">Wie weet het?</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projecten">
+    <!-- About-->
+    <section class="page-section bg-light" id="tijdslijn">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2>Mijn voltooide projecten</h2>
-                    <p class="lead">De voorbije 2 jaar heb ik verschillende uiteenlopende projecten voltooid in het kader van IT. Graag wil ik u de belangrijkste en meest waardevolle in de verf zetten. Klik op de onderstaande knop voor mijn creaties te kunnen zien.</p>
-                    <a class="btn btn-success btn-lg" href="projecten.html" role="button"><i class="fas fa-project-diagram"></i></a>
-                </div>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Tijdslijn</h2>
+                <h3 class="section-subheading text-muted">Mijn afgelegde weg doorheen de jaren.</h3>
             </div>
+            <ul class="timeline">
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2020</h4>
+                            <h4 class="subheading">Project Hosting</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Mijn eerste hosting project waarbij we in team aan collega studenten PHP hosting service hebben aangeboden.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2019</h4>
+                            <h4 class="subheading">Project SE&amp;A</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Een project waarin ik kennis vergaarde over SCRUM borden en agile werken.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Januari 2019</h4>
+                            <h4 class="subheading">Project Webdesign</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">Mijn allereerste IT project waarbij ik in team website hebben gemaakt voor Het Gouden Hart te Lommel.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>2018</h4>
+                            <h4 class="subheading">Start bij Thomas More Geel</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">In september 2018 ben ik begonnen aan mijn bachelor Elektronica-ICT met als afstudeerrichting Cloud and Cyber Security!</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <section id="contact" class="bg-light">
+    <!-- Contact-->
+    <section class="page-section" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2><i class="far fa-address-card"></i> Contact</h2>
-                    <p class="lead">Heb je na het lezen van mijn e-portolio vragen? Stel ze dan gerust door me te contacteren via mail. Ik zal zo spoedig mogelijk proberen te antwoorden.</p>
-                    <p class="lead"><a href="mailto:r0757199@student.thomasmore.be">Stuur hier een mailtje</a></p>
-                </div>
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact</h2>
             </div>
+            <br>
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div id="success"></div>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Verzend bericht</button>
+                </div>
+            </form>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <!-- Footer-->
+    <footer class="footer py-2">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Bert Moelans</p>
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">Copyright © Bert Moelans</div>
+                <!--
+<div class="col-lg-4 my-3 my-lg-0">
+    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/bertmoelans/"><i class="fab fa-linkedin-in"></i></a>
+</div>
+-->
+                <!--
+<div class="col-lg-4 text-lg-right">
+    <a class="mr-3" href="#!">Privacy Policy</a>
+    <a href="#!">Terms of Use</a>
+</div>
+-->
+            </div>
         </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-
+    <!-- Portfolio Modals-->
+    <!-- Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project Webdesign</h2>
+                                <p class="item-intro text-muted">Mijn allereerste IT project!</p>
+                                <p>Mijn eerste echte project was het maken van een website voor een weggeefwinkel genaamd "Het Gouden Hart". Dit was in de projectweek van het eerste semester van de opleiding. We hebben dit in een groep van vier personen gedaan en onder ons het werk verdeeld. Als we ergens moeilijkheden hadden konden we altijd op elkaar rekenen. Het groepswerk verliep vlot, omdat we allemaal even gedreven waren om de opdracht tot een fantastisch einde te brengen.</p>
+                                <p>Mijn aandeel in dit project is vooral de Homepagina en de Welzijnsschakelpagina. Uiteraard heeft iedereen op elke pagina wel iets gedaan, maar dit waren mijn 2 hoofdpagina's. Ik heb hier geleerd hoe je met Materialize een website kan bouwen. Dit is een tool waarin al code verwerkt is, die je dan kan gebruiken op je eigen website. Deze materialize code kan nog aangepast worden en dat hebben we zeker gedaan. Het was dus niet gewoon kopiëren en plakken. Daardoor zijn mijn webskills enorm gegroeid op enkel een week tijd. Ik ben hier heel dankbaar voor. Hieronder vindt u enkele foto's van de site in een slideshow gegoten.</p>
+                                <br>
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_home.JPG" alt="Homepagina">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_team.JPG" alt="Teampagina">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_welzijn.JPG" alt="Welzijnspagina">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_filmpjes.JPG" alt="Filmpjes van activiteiten">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_slideshow.JPG" alt="Slideshow met interactieve start/stop knop">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="afbeeldingen/hgh_contact.JPG" alt="Contactstrook">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Vorige</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Volgende</span>
+                                    </a>
+                                </div>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Sluit Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project Systems Engineering &amp; Analysis</h2>
+                                <p class="item-intro text-muted">Oplossend denkvermogen geactiveerd!</p>
+                                <p>Het tweede project dat ik graag wil bespreken is een project van het vak Systems engineering and analysis. Een vak dat gegeven werd door Eric Pauwels (leerkracht) in samenspraak met Dirk Verbeek (projectleider/klant). We hebben geleerd hoe we flexibel een project doorlopen in team en met welke hulpmiddelen zoals een scrum-board. Je bent natuurlijk niet flexibel als je niet snel aanpassingen kan doorvoeren in opdracht van de klant. We leerde snel te anticiperen op de veranderende mening van de klant. Wat me vooral is bijgebleven is dat je voldoende tijd moet nemen voor je effectief aan de praktijk begint. Een goed doordachte planning en takenverdeling is essentieel voor een project te beginnen. Ook is het belangrijk om in stappen te werken waarbij elke stap volledig is. Eerst bouw je een fiets en daarna pas een brommer.
+                                </p>
+                                <p>Het project zelf ging over het probleem van overtollige regenval in België en het gebrek aan opvang hiervoor. Zo zijn we aan de slag gegaan door te brainstormen en hebben we een systeem bedacht dat de regenputten in ieders tuin verbindt. Dit systeem is remote bestuurbaar en elke put wordt automatisch op hetzelfde niveau gebracht als dat van zijn buren. Ik zelf heb me vooral bezig gehouden met Excel. Hierin wilde ik de effectieve werking van het pompsysteem vastleggen en visueel duidelijk maken. Voor de eerste keer in mijn leven heb ik leren met macro's op Excel. Dit was een uitdaging maar uiteindelijk wel een geslaagde uitdaging naar mijn mening. Het Excel bestand kan u downloaden door op volgende link te klikken <a href="bestanden/Project_Brommer.xlsm" download>Project_SE&amp;A.xlsm</a>
+                                </p>
+                                <div class="embed-responsive embed-responsive-16by9 wrap">
+                                    <iframe id="video1" class="embed-responsive-item" src="bestanden/video-se&a.mp4"></iframe>
+                                </div>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Sluit Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project Hosting</h2>
+                                <p class="item-intro text-muted">Mijn eerste hosting project!</p>
+                                <p>Het uiteindelijke doel van dit project was om een hosting service aan te bieden voor PHP-projecten. Dit werd mogelijk gemaakt door een Vsphere omgeving en een OpenVPN connectie. Het was een grote uitdaging waar ik enorm veel van heb geleerd. We hebben een netwerkinfrastructuur opgesteld met een Firewall die al het verkeer filtert van buiten naar binnen en visa versa. We hebben de Firewall geconfigureerd met PfSense. Daar hebben mijn collega Vincent Herroelen en ik voor een groot deel van het project aan gewerkt. Deze netwerkinfrastructuur moest stabiel zijn en effectief werken. Dat is natuurlijk de basis van het project. Het was een grote verantwoordelijkheid die we tot een heel goed einde hebben gebracht. Daarnaast heb ik veel gewerkt aan de documentatie en planning.
+                                </p>
+                                <p>We werkten in een team van zeven personen en hebben zo veel software kunnen implementeren op onze interne virtuele machines zoals Zabbix voor monitoring, OsTicket als helpdesk systeem, Varnish om de snelheid van de website te optimaliseren enzovoort. Hieronder vindt u de topologie van ons netwerk. Als u graag onze documentatie doorneemt klik dan gerust op de topologie of download ons <a href="bestanden/Project_Verslag_Team6.pdf" download>Project_Verslag.pdf</a></p>
+                                <a href="bestanden/Project_Verslag_Team6.pdf" class="text-center">
+                                    <figure>
+                                        <img src="afbeeldingen/Toplogie.png" alt="Topologie" class="responsive">
+                                    </figure>
+                                </a>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Project 4.0</h2>
+                                <p class="item-intro text-muted">Een project met teamleden van alle afstudeerrichtingen!</p>
+                                <p>Project klaar op het einde van dit semester.</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Stage nFuse</h2>
+                                <p class="item-intro text-muted">Mijn eerste stage als Cyber Security student!</p>
+                                <p>Stage loopt van 1 maart tot 31 mei 2021.</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Mysterie</h2>
+                                <p class="item-intro text-muted">Wie weet wat dit project zal worden?</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
