@@ -6300,7 +6300,8 @@ a.close.disabled {
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: auto;
+    width: 70%;
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
@@ -11141,7 +11142,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
     header.masthead {
         padding-top: 18rem;
-        padding-bottom: 13rem;
+        padding-bottom: 27rem;
     }
 
     header.masthead .masthead-subheading {
